@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="#ffff431a">
+
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/profilePicID">
+
+    </com.facebook.login.widget.ProfilePictureView>
+
+    <TextView
+        android:id="@+id/lvTitle"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="15dp"
+        android:text="helloooo"
+        android:textAlignment="gravity"
+        android:textColor="#fff5f3ff"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="20 Votes"
+        android:id="@+id/tvVotes"
+        android:textColor="#fff5f3ff"/>
+
+
+</LinearLayout>

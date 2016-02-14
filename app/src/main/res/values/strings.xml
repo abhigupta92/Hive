@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewsFeed</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1640066859543935</string>
+
+    <string-array name="categories">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string name="google_app_id">AIzaSyAkUSv4Nk8NtKzFQoJ2Q__5zrJmyCTmebw</string>
+
+</resources>

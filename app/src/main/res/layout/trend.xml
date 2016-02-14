@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff477aff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/screen_list">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvTrendingPosts"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/screen_post_selected">
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fbPostPic"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+        </com.facebook.login.widget.ProfilePictureView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+            android:textSize="30dp"
+            android:id="@+id/tvPostTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="175dp" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTENT sadddsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsds DSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSD"
+                android:textSize="30dp"
+                android:id="@+id/tvPostContent"
+                android:layout_marginTop="225dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center">
+
+            </TextView>
+
+        </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="- Votes"
+            android:id="@+id/tvPostVotes"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="500dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UpVote"
+            android:id="@+id/bPostVote"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="490dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

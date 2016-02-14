@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff477aff"
+    android:id="@+id/tvScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#ffff5d4d"
+            android:orientation="horizontal">
+
+            <com.facebook.login.widget.ProfilePictureView
+                android:id="@+id/profilePic"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </com.facebook.login.widget.ProfilePictureView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvProfileDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="         Abhishek Gupta, 23\nKochi\nIndia"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fffff71f" />
+
+                <TextView
+                    android:id="@+id/tvProfilePostDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:text="Total Posts : 30
+            Last Posted: 34/34/34"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fffff71f" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- <fragment
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/map"
+             android:name="com.google.android.gms.maps.SupportMapFragment"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_above="@+id/tvStatusDetails"
+             android:layout_centerHorizontal="true" />
+
+         -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgBtn" />
+
+            <TextView
+                android:id="@+id/tvStatusDetails"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fffff71f" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
